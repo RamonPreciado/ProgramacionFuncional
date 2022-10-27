@@ -199,14 +199,14 @@ class Calculadora {
 
 void main(List<String> args) {
   Persona ramon = new Persona();
-  cristian.aMaterno = "Torres";
-  cristian.aPaterno = "Preciado";
-  cristian.nombre = "Ramon";
-  cristian.aNacimiento = 2002;
+  ramon.aMaterno = "Torres";
+  ramon.aPaterno = "Preciado";
+  ramon.nombre = "Ramon";
+  ramon.aNacimiento = 2002;
 
-  cristian.showName(ramon.nombre, ramon.aPaterno, ramon.aMaterno);
+  ramon.showName(ramon.nombre, ramon.aPaterno, ramon.aMaterno);
   print("Tienes ${ramon.calcularEdad(ramon.aNacimiento)} años");
-  cristian.showname2();
+  ramon.showname2();
 }
 
 class Persona {
