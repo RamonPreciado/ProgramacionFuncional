@@ -1,4 +1,4 @@
->>> Para pedir ayuda del Shell <<<
+# Para pedir ayuda del Shell <<<
 """
 iex()> h
 * IEx.Helpers
@@ -19,7 +19,7 @@ ath
 To learn more about IEx as a whole, type `h(IEx)`.
 """
 
->>> Para ver la ayuda específica de alguna opción (macro) se puede indicar como h <<<
+# >>> Para ver la ayuda específica de alguna opción (macro) se puede indicar como h <<<
 # opción, o h(opción)
 """
 iex()> h b
